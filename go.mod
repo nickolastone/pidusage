@@ -1,3 +1,3 @@
-module github.com/struCoder/pidusage
+module github.com/nickolastone/pidusage
 
-go 1.13
+go 1.19
