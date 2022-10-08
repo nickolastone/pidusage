@@ -61,6 +61,7 @@ func init() {
 	fnMap["openbsd"] = wrapper("proc")
 	fnMap["aix"] = wrapper("ps")
 	fnMap["linux"] = wrapper("proc")
+	fnMap["android"] = wrapper("proc")
 	fnMap["netbsd"] = wrapper("proc")
 	fnMap["win"] = wrapper("win")
 
